@@ -1,0 +1,448 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 99.80%;
+    border: 1px solid black;
+}
+
+.container .top {
+    width: 100%;
+    height: 2.85rem;
+    display: inline-block;
+    background-color: #2564cf;
+}
+
+.container .top div {
+    display: inline-block;
+}
+
+.container .top .top-left {
+  width: 8%;
+}
+
+.container .top .top-middle {
+  width: 75.38%;
+  text-align: center;
+}
+
+.container .top .top-right {
+  width: 15.3%;
+}
+
+.container .top .top-left .apps {
+  padding-top: 0.75rem;
+  padding-bottom: 0.83rem;
+  width: 44.75%;
+  text-align: center;
+}
+
+.container .top .top-left .app-name {
+  border-bottom: 2px solid white;
+  padding-left: 0.625%;
+  padding-right: 0.938%;
+  width: 41.99%;
+  font-weight: 500;
+  color: white;
+  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
+}
+
+.container .top .top-middle .search-bar {
+  padding: 0.857%;
+  width: 41.4%;
+  text-align: left;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.container .top .top-middle .search-bar input {
+  outline: none;
+  border: none;
+  width: 92.95%;
+}
+
+.container .top .top-right .settings {
+  width: 22.5%;
+  text-align: center;
+}
+
+.container .top .top-right .questions {
+  width: 22.5%;
+  text-align: center;
+}
+
+.container .top .top-right .whats-new {
+  width: 22%;
+  text-align: center;
+}
+
+.container .top .top-right .account {
+  padding-top: 0.45rem;
+  padding-bottom: 0.57rem;
+  width: 18%;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.container .left-column {
+  vertical-align: top;
+  display: inline-block;
+  width: 22.52%;
+  height:35.1rem;
+  border-right: 0.5px solid black;
+}
+
+.container .left-column .sidebar .sidebar-header .menu-button {
+  padding: 9.5% 7.4%;
+}
+
+.container .left-column .sidebar .sidebar-center {
+  height: 27.2rem;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .sidebar-center-content {
+  cursor: pointer;
+  list-style-type:none;
+  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
+  font-weight: 350;
+  font-size: 90%;
+  padding: 4% 7.4%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .sidebar-center-content p {
+  display: inline-block;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox :hover {
+  background-color: rgba(243, 243, 244, 0.815);
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-line {
+  margin-left: 5.8%;
+  margin-right: 5.8%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 1px;
+  background-color: #edebe9;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .create-list {
+  display: inline-block;
+  width: 77.2%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .create-list:hover, .create-list:hover input {
+  background-color: rgba(243, 243, 244, 0.815);
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .create-list .addlist-symbol {
+  width: 91.5%;
+  padding-top: 4%;
+  padding-left: 7.4%;
+  display: inline-block;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .sidebar-grouplist {
+  vertical-align: top;
+  display: inline-block;
+  padding: 3.6% 6%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .sidebar-grouplist:hover {
+  background-color: rgba(243, 243, 244, 0.815);
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .sidebar-grouplist:hover{
+  background-color: rgba(243, 243, 244, 0.815);
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .create-list .addlist-symbol input::placeholder {
+  color: #2564cf;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .create-list input {
+  outline: none;
+  border: none;
+  width: 86%; 
+  height: 2rem;
+}
+
+.container .left-column .sidebar .sidebar-footer li {
+  cursor: pointer;
+  list-style-type: none ;
+  display: inline-block;
+  padding: 6.5%;
+}
+
+.container .left-column .sidebar .sidebar-footer .apps-box :hover {
+  background-color: rgba(243, 243, 244, 0.815);
+}
+
+.container .center-column {
+  width: 75%;
+  background-color: #e1e0de;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.container .center-column .center-top {
+  height: 4.5rem;
+  font-size: 20px;
+  margin-top: 1.2rem;
+  margin-left: 1.5rem;
+  margin: 1.2rem .75rem .75rem 1.5rem;
+
+}
+
+.container .center-column .center-top .center-top-block {
+  height: 3rem;
+  min-width: 1.5rem;
+}
+
+.container .center-column .center-top .center-top-block .heading {
+  display: inline-block;
+}
+
+.container .center-column .center-top .center-top-block div {
+  display: inline-block;
+  width: 49%;
+}
+
+.container .center-column .center-top .center-top-block .center-top-block-right div {
+  text-align: right;
+  display: inline-block;
+  width: 27%;
+}
+
+.container .center-column .center-top .center-top-block .center-top-block-right .sort {
+  display: inline-block;
+  width: 13%
+}
+
+.container.center-container .center-top .center-top-block .center-top-block-left i {
+  padding-right: .25rem;
+  font-size: 1rem;
+}
+
+.container.center-column .center-top .center-top-block-left button {
+  font-size: 1.4rem;
+  padding: 9px 12px;
+  border: none;
+  background-color: #e1e0de;
+}
+
+.container.center-column .center-top .center-top-block-right i {
+  display: inline-block;
+  position: relative;
+  right: .2px;
+}
+
+.container.center-column .center-top .center-top-block-right {
+  text-align: right;
+  color: #605e5c;
+  font-size: .875rem;
+  font-weight: 400;
+  width: 100%;
+}
+
+.container .center-column .center-top .date {
+  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
+  font-weight: 350;
+  font-size: 0.75rem;
+  color: #605e5c;
+  line-height: 0;
+}
+
+.container .center-column .add-task, .task-option-box {
+    height: 3.25rem;
+    padding-top: 1.4%;
+    width: 97%;
+    margin-left: 1rem;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 2.2;
+    background-color:#e1e0de;
+    border-bottom: 1px solid #e1e0de;
+    box-shadow: #6c6a6a7d 0px 1px 1px;
+}
+
+.container .center-column .add-task button {
+    font-size: 1rem;
+    padding: 9px 12px;
+    border: none;
+    background-color: #e1e0de;
+    color: #2564cf;
+    margin-left: .8rem;
+}
+
+.container .center-column .add-task input {
+    height: 2rem;
+    width: 93%;
+    border: none;
+    outline: none;
+    font-size: .9rem;
+}
+
+.container .center-column .add-task input::placeholder {
+    color: #2564cf;
+}
+
+.container .center-column .task-option-box {
+    height: 2.75rem;
+    background-color: #e1e0de;
+    border-radius: 0px 0px 5px 5px;
+    line-height: 1.7;
+}
+
+.container .center-column .task-option-box div {
+    display: inline-block;
+    width: 49%;
+}
+
+.container .center-column .task-option-box i {
+    padding: .5rem;
+    font-size: 1rem;
+    color: #605e5c;
+}
+
+.container .center-column .task-option i:first-child {
+    margin-left: 1rem;
+}
+
+.container .center-column .task-option-box .add-button {
+    text-align: right;
+}
+
+.container .center-column .task-option-box .add-button button {
+    background-color: white;
+    padding: .5rem;
+    border: .05rem solid #e1e0de;
+    border-radius: .05rem;
+    color: #acaaa9;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .select-category p {
+  display: inline-block;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .select-category {
+  background-color: #c8d1e8;
+  /* font-weight: bold; */
+  border-left: 3px solid #3576e7;
+  /* padding-left: 1.6rem; */
+
+  cursor: pointer;
+  list-style-type:none;
+  font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
+  font-weight: 350;
+  font-size: 90%;
+  padding: 4% 7.4%;
+}
+
+.container .left-column i .select-category {
+  display: inline-block;
+}
+
+.container .top .top-left .apps .fa-ellipsis-vertical {
+  color: white;
+  font-size:large;
+}
+
+.container .top .top-right .settings .fa-gear {
+  color: white;
+  font-size:large;
+}
+
+.container .top .top-right .questions .fa-question {
+  color: white;
+  font-size:large;
+}
+
+.container .top .top-right .whats-new .fa-bullhorn {
+  color: white;
+  font-size:large;
+}
+
+.container .top .top-right .account .fa-user {
+  color: white;
+  font-size:large;
+}
+
+.container .top .top-middle .search-bar .search-symbol .fa-magnifying-glass {
+  color: #2564cf;
+  font-size: large;
+}
+
+.container .left-column .sidebar .sidebar-header .menu-button .fa-bars {
+  font-size: large;
+  color: #313131;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .sidebar-center-content .fa-sun{
+  font-size: large;
+  margin-right: 6%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .sidebar-center-content .fa-star{
+  font-size: large;
+  margin-right:5%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .sidebar-center-content .fa-calendar-days{
+  font-size: large;
+  margin-right: 6.8%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .sidebar-center-content .fa-house{
+  font-size: large;
+  margin-right: 5.4%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .sidebar-center-content .fa-user{
+  font-size: large;
+  margin-right: 7.1%;
+}
+
+
+
+.container .left-column .sidebar .sidebar-center .sidebar-addlist .create-list .addlist-symbol .fa-plus {
+  color: #2564cf;
+  font-size: large;
+  margin-right: 4%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-grouplist .grouplist-symbol .fa-file-circle-plus {
+  color: #2564cf;
+  font-size: large;
+}
+
+.container .left-column .sidebar .sidebar-footer .apps-box .apps .fa-check {
+  color: #2564cf;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .select-category .fa-sun {
+  font-size: large;
+  margin-right: 6%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .select-category .fa-star{
+  font-size: large;
+  margin-right:5%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .select-category .fa-calendar-days{
+  font-size: large;
+  margin-right: 6.8%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .select-category .fa-house{
+  font-size: large;
+  margin-right: 5.4%;
+}
+
+.container .left-column .sidebar .sidebar-center .sidebar-listbox .select-category .fa-user{
+  font-size: large;
+  margin-right: 7.1%;
+}
