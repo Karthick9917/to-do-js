@@ -191,10 +191,7 @@
 .container .center-column .center-top {
   height: 4.5rem;
   font-size: 20px;
-  margin-top: 1.2rem;
-  margin-left: 1.5rem;
-  margin: 1.2rem .75rem .75rem 1.5rem;
-
+  margin: 1.6rem .75rem .75rem 1.5rem;
 }
 
 .container .center-column .center-top .center-top-block {
@@ -204,6 +201,8 @@
 
 .container .center-column .center-top .center-top-block .heading {
   display: inline-block;
+  color: #2564cf;
+
 }
 
 .container .center-column .center-top .center-top-block div {
@@ -329,10 +328,8 @@
 
 .container .left-column .sidebar .sidebar-center .sidebar-listbox .select-category {
   background-color: #c8d1e8;
-  /* font-weight: bold; */
+  color: #2564cf;
   border-left: 3px solid #3576e7;
-  /* padding-left: 1.6rem; */
-
   cursor: pointer;
   list-style-type:none;
   font-family: "Segoe", "Segoe UI", "Arial", "sans-serif";
@@ -376,6 +373,8 @@
 }
 
 .container .left-column .sidebar .sidebar-header .menu-button .fa-bars {
+  border: 1px solid black;
+  padding: 2%;
   font-size: large;
   color: #313131;
 }
