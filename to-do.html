@@ -14,7 +14,7 @@
     href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css">
 </head>
 
-<body>
+<body class="main">
   <div class="container">
     <div class="top">
       <div class="top-left">
@@ -58,14 +58,18 @@
           </div>
         </div>
         <div class="sidebar-center">
-          <ul class="sidebar-listbox">
-          </ul>
-          <div class="sidebar-line"></div>
+          <div class="scrollbar-category">
+            <ul class="sidebar-listbox">
+            </ul>
+            <div class="sidebar-line"></div>
+            <ul class="new-list-category">
+            </ul>
+          </div>
           <div class="sidebar-addlist">
             <div class="create-list">
               <div class="addlist-symbol">
                 <i class="fa-solid fa-plus"></i>
-                <input type="text" placeholder="New list">
+                <input type="text" id="text" placeholder="New list">
               </div>
             </div>
             <div class="sidebar-grouplist">
@@ -110,7 +114,7 @@
         <button>
           <i class="fa-regular fa-circle"></i>
         </button>
-        <input type="text" placeholder="Add a task">
+        <input type="text" id="task" placeholder="Add a task">
       </div>
       <div class="task-option-box">
         <div class="task-option">
@@ -122,6 +126,8 @@
           <button>Add</button>
         </div>
       </div>
+      <ul class="new-task">
+      </ul>
     </div>
   </div>
 
